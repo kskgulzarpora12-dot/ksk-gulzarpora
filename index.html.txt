@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kisan Seva Kendra (KSK)</title>
+
+<style>
+body {margin:0;font-family:Arial;background:#f5f5f5;}
+
+header {
+  background:#ff6a00;
+  color:white;
+  padding:15px;
+  text-align:center;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.hero {
+  background:url('your-image1.jpg.PNG') center/cover;
+  height:400px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  background-color:rgba(0,0,0,0.6);
+  background-blend-mode:darken;
+}
+
+.hero h1 {font-size:36px;margin:0;}
+.hero p {font-size:18px;}
+
+.btn {
+  display:inline-block;
+  background:#007bff;
+  color:white;
+  padding:10px 18px;
+  margin:5px;
+  border-radius:5px;
+  text-decoration:none;
+}
+
+.section {padding:30px;text-align:center;}
+
+.services {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.card {
+  background:white;
+  padding:15px;
+  margin:10px;
+  width:200px;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+.gallery img {
+  width:30%;
+  margin:5px;
+  border-radius:10px;
+}
+
+.footer {
+  background:black;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+
+.whatsapp {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:white;
+  padding:15px;
+  border-radius:50%;
+  font-size:20px;
+  text-decoration:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>Kisan Seva Kendra (KSK)</header>
+
+<div class="hero">
+  <div>
+    <h1>Trusted Petrol Pump</h1>
+    <p>Gulzarpora Pulwama • 24/7 Service</p>
+    <a class="btn" href="tel:9622609280">Call Now</a>
+    <a class="btn" href="https://wa.me/919622609280">WhatsApp</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">⛽ Petrol</div>
+    <div class="card">🚛 Diesel</div>
+    <div class="card">🌱 XTRAGREEN</div>
+    <div class="card">💨 Air Facility</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Location</h2>
+  <iframe src="https://maps.google.com/maps?q=Gulzarpora%20Pulwama&t=&z=13&ie=UTF8&iwloc=&output=embed"
+  width="90%" height="250" style="border:0;"></iframe>
+</div>
+
+<div class="section gallery">
+  <h2>Gallery</h2>
+  <img src="your-image1.jpg.PNG">
+  <img src="your-image.jpg.PNG">
+  <img src="your-image3.jpg.PNG">
+</div>
+
+<div class="section">
+  <h2>Contact</h2>
+  <p>📍 Gulzarpora, Pulwama</p>
+  <p>📞 9622609280 / 9858313521</p>
+</div>
+
+<a class="whatsapp" href="https://wa.me/919622609280">💬</a>
+
+<div class="footer">
+© 2026 Kisan Seva Kendra | All Rights Reserved
+</div>
+
+</body>
+</html>
