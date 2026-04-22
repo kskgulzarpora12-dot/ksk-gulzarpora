@@ -118,7 +118,7 @@ header {
 
 <div class="section gallery">
   <h2>Gallery</h2>
-  <img src="your-image1.jpg.PNG">
+<img src="your-image1.jpg.PNG">
 <img src="your-image2.jpg.PNG">
 <img src="your-image3.jpg.PNG">
 </div>
